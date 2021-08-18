@@ -1,0 +1,332 @@
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.chau-linea {
+    display: block;
+    margin-top: 223px;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-body {
+    font-size: 12px;
+}
+
+/* HEADER */
+
+.main-header {
+    background-color: #EAC926;
+    padding:20px 20px 10px;
+    position:fixed;
+    z-index:1;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 224px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.copy-header {
+    font-weight: 400;
+    margin: 6px 0 ;
+}
+
+/* Estoy ocultando la barra de opciones que se clickea */
+.main-navbar {
+    display: none;  
+}
+/* Estoy ocultando la barra de opciones que se clickea */
+.search-margin{
+    margin: 10px 0;
+}
+.search{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+.search-design{
+    border-radius: 5px;
+    border: none;
+    height: 28px;
+    width: 30px;
+}
+
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 1px 0;
+    font-size: 17px;
+}
+
+
+.burger-menu {
+    background-color: #1259c3;
+    color: white;
+    display: block;
+    max-width: 40px;
+    padding: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 19px;
+    margin: auto;;
+}
+/* .burger-menu {
+    text-align: center;
+    font-size: 24px;
+    width: 40px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: white;
+} */
+
+/* MAIN */
+/* .center-main{
+    width: 90%;
+    margin: auto;
+} */
+.center-main{
+    width:100%;
+    /* padding: 0 5%; */
+    box-sizing: border-box;
+}
+
+/* SECCION 1 */
+.background-color{
+    background-color: #ebebeb;
+}
+.text-title {
+    font-size: 24px;
+    margin: 0px 24px 10px;
+    padding:10px 0px;
+    color: dimgrey;
+}
+
+/* ARTICULOS */
+.article-properties{
+    margin:25px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.container{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.truck{
+    padding: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: #39b54a;
+    border: solid 2px #39b54a;
+    border-radius: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    right: 20px;
+    top: -18px;
+}
+
+.text-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.text-discount {
+    font-size: 16px;
+    color: #39b54a;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.text-description {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+/* FOOTER */
+.margin-footer {
+    margin-top: 30px;
+}
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-footer {
+    font-size: 25px;
+    color: #1259c3;
+    transition: all 500ms;
+}
+
+.icon-footer:hover{
+    color: #39b54a;
+    font-size: 30px;
+}
+
+.text-footer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;    
+}
+
+.contenedor-item-footer{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+.mini-text-footer {
+    font-size: 13px;
+    text-align: center;
+    color: #666; 
+} 
+
+
+
+/* paleta de colores
+amarillo: #EAC926;
+azul: #03264C;
+celeste: #1259c3;
+gris oscuro: #666;
+gri calro: #ebebeb;
+verde: #39b54a; */
+
+
+/* @media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+} */
+
+
+/* PAGINA DE REGISTRO */
+
+.main-registro {
+    background-color: #ebebeb;
+    padding:24px;
+    margin-top: 200px;
+}
+
+.form-input .main-label{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-input input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+.form-input input[type="checkbox"],
+.form-input input[type="radio"]{
+    width: auto;
+}
+
+.form-input {
+    padding-bottom: 8px;
+}
+
+.option-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-option{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.error {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: red;
+    font-size: 10px;
+}
+
+
+
+/* TRATANDO DE CAMBIA DE COLOR EL ENVIAR */
+.change-color {
+    color: none;
+    transition: color 500ms;
+}
+
+.change-color:hover{
+    color: #0022AA
+}
+
+.button-properties {
+    border-radius: 10px;
+    border: none;
+    background-color:#C4C4C4;
+    height: 25px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: border 100ms;
+}
+
+.button-properties:hover{
+    border: 2px solid green;
+}
+
+
+
+/* ---------- LOG IN STYLE ---------- */
+.position-log-in{
+    padding: 324px 0 100px;
+    text-align: center;
+}
+
+.user-text-place{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 250px;
+}
+
+.position-log-in{
+    background-color: #ebebeb;
+}

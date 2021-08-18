@@ -1,0 +1,36 @@
+.product-wrapper {
+    width: 25%;
+}
+
+.main-navbar li {
+    margin: 5px 10px;
+}
+
+.search{
+    width: 500px;
+}
+/* CORRIGIENDO QUE LA BARRA NO TAPE NADA */
+.chau-linea {
+    margin-top: 116px;
+}
+.main-registro {
+    margin-top: 100px;
+}
+
+
+.contenedor-item-footer{
+    text-align: center;
+    width: 25%;
+}
+
+.mini-text-footer {
+    font-size: 15px;
+}
+
+.footer-flex {
+    justify-content: space-around;
+}
+
+
+ /* align-items: center;
+    margin: 0 20%; */
